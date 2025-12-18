@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans text-gray-900;
+    background-image: linear-gradient(to bottom, #fafeff, #dcedfc);
+  }
+}
